@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Oribital Search Engine</title>
+    <style>
+    #google {
+        display: flex;
+        padding-top: 109px;
+        padding-left: 400px;
+        }   
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+        padding: 5px;
+    }
+    a {
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+        color: black;
+        opacity: 0.65;
+        }
+    a:hover {
+        text-decoration: underline;
+    }
+    .mail {
+        margin-left: 800px;
+    }
+    .images {
+        margin-left: 6px;
+    }
+    .input {
+        background-color: transparent;
+        color: black;
+        border-style: none;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        margin-left: 400px;
+        padding: 0;
+        font-size: 16px;
+        font-family: arial, serif;
+        line-height: 34px;
+        height: 34px !important;
+        width: 272px;
+    }
+    .input:hover {
+         box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+    }   
+    #magnifier {
+        width: 29px;
+        display: flex;
+        margin-left: 680px;
+        margin-top: -33px;
+    }   
+    </style>
+</head>
+
+<body>
+  <div id="container">
+    <ul>
+      <li><a href="/intl/en/about/?fg=1&amp;utm_source=google-US&amp;utm_medium=referral&amp;utm_campaign=hp-header">About</a></li>
+      <li><a href="https://store.google.com/?utm_source=hp_header&amp;utm_medium=google_oo&amp;utm_campaign=GS100042">Store</a></li>
+      <li><a class="mail" href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+      <li><a class="mail images" href="https://www.google.com/imghp?hl=en&amp;tab=wi">Images</a></li>
+    </ul>
+  </div>
+  <div id="container">
+    <img id="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+  </div>
+  <div id="container">
+    <input class="input" maxlength="2048" type="text" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" title="Search" value="" aria-label="Search">
+    <img id="magnifier" src="https://cdn.pixabay.com/photo/2013/07/12/12/34/magnifying-glass-145942_640.png" />
+  </div>
+</body>
+</html>
